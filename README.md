@@ -1,4 +1,4 @@
-# Astro Example - Why I am stopping my astro project (full project not uploaded)
+# Astro + Solid JS - Why I am stopping my astro project.
 
 ### You can refer the problems I faced below.
 
