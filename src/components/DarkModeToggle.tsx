@@ -24,7 +24,7 @@ const DarkModeToggle = () => {
           }
         `}
 			</style>
-			<div class="bg-white dark:bg-gray-900 min-h-screen w-full flex flex-row items-center">
+			<div class="bg-customLight dark:bg-customDark w-14 rounded-full">
 				<label for="dark-toggle" class="items-center cursor-pointer">
 					<div class="relative">
 						<input

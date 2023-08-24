@@ -10,7 +10,9 @@ import Layout from "../layouts/Layout.astro";
 			<Starfield />
 			<img src="/camera.svg" alt="camera" class="w-screen" />
 		</section>
-		<section class="bg-customLight dark:bg-customDark h-24">
+		<section
+			class="bg-customLight dark:bg-customDark border-t-2 border-customDark"
+		>
 			<DarkModeToggle client:visible />
 		</section>
 	</main>
