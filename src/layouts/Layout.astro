@@ -17,17 +17,6 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<nav class="flex justify-between text-white">
-			<img src="/favicon.svg" class="w-10 mx-5 my-auto" />
-			<section class="flex">
-				<ul class="flex">
-					<li class="p-2 m-3"><a href="/">Home</a></li>
-					<li class="p-2 m-3"><a href="#">About</a></li>
-					<li class="p-2 m-3"><a href="#">Projects</a></li>
-					<li class="p-2 m-3"><a href="#">Contact</a></li>
-				</ul>
-			</section>
-		</nav>
 		<slot />
 	</body>
 </html>
@@ -38,11 +27,18 @@ const { title } = Astro.props;
 
 	html {
 		font-family: system-ui, sans-serif;
-		background: #13151a;
-		color: white;
+		background: white;
+		color: black;
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
 			DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+	body,
+	&::after,
+	&::before {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 	}
 </style>

@@ -1,7 +1,14 @@
 ---
+import Starfield from "../components/Starfield.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Astro project">
-	<main></main>
+	<main>
+		<section class="relative">
+			<Starfield />
+			<img src="/camera.svg" alt="camera" class="w-screen" />
+		</section>
+		<section class=""></section>
+	</main>
 </Layout>

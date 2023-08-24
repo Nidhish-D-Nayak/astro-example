@@ -20,6 +20,9 @@ dependencies:
   tailwindcss:
     specifier: ^3.0.24
     version: 3.3.3
+  tiny-invariant:
+    specifier: ^1.3.1
+    version: 1.3.1
 
 packages:
 
@@ -3353,6 +3356,10 @@ packages:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
     dependencies:
       any-promise: 1.3.0
+    dev: false
+
+  /tiny-invariant@1.3.1:
+    resolution: {integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==}
     dev: false
 
   /titleize@3.0.0:
