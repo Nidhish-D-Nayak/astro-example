@@ -5,7 +5,7 @@
 <script>
 	import invariant from "tiny-invariant";
 
-	const COUNT = 50;
+	const COUNT = 75;
 	const SPEED = 0.075;
 
 	class Wave {
@@ -126,7 +126,7 @@
 		}
 
 		ctx.translate(width / 2, height / 2);
-		ctx.fillStyle = "white"; // Set the fill color to white
+		ctx.fillStyle = "#eaeeed"; // Set the fill color to white
 		ctx.strokeStyle = "transparent"; // Set the stroke color to transparent
 		rafId = requestAnimationFrame(frame);
 	}
@@ -137,7 +137,7 @@
 		invariant(ctx, "canvas context should not be null");
 		const { clientWidth: width, clientHeight: height } = container;
 
-		ctx.fillStyle = "white";
+		ctx.fillStyle = "#eaeeed";
 		ctx.fillRect(-width / 2, -height / 2, width, height);
 
 		for (const star of stars) {

@@ -1,14 +1,17 @@
 ---
+import DarkModeToggle from "../components/DarkModeToggle";
 import Starfield from "../components/Starfield.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Astro project">
+<Layout title="Portfolio">
 	<main>
 		<section class="relative">
 			<Starfield />
 			<img src="/camera.svg" alt="camera" class="w-screen" />
 		</section>
-		<section class=""></section>
+		<section class="bg-customLight dark:bg-customDark h-24">
+			<DarkModeToggle client:visible />
+		</section>
 	</main>
 </Layout>
