@@ -1,16 +1,31 @@
 ---
 import DarkModeToggle from "../components/DarkModeToggle";
+import Starfield from "../components/Starfield.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Portfolio">
 	<main>
 		<section class="relative">
-			<!-- <Starfield /> -->
-			<img src="/camera.svg" alt="camera" class="w-screen" />
+			<Starfield />
+			<img src="/camera_02.svg" alt="camera" class="w-screen" />
 		</section>
 		<section class="bg-customLight dark:bg-customDark">
 			<DarkModeToggle client:visible />
 		</section>
 	</main>
 </Layout>
+<!-- 
+<style>
+	body::-webkit-scrollbar {
+		width: 0.75em;
+	}
+
+	body::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 6px #fff;
+	}
+
+	body::-webkit-scrollbar-thumb {
+		background-color: #081625;
+	}
+</style> -->
