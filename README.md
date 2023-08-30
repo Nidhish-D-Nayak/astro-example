@@ -1,24 +1,4 @@
-# Astro + Solid JS - Why I am stopping my astro project.
-
-### You can refer the problems I faced below.
-
-## My Requirements:
-
-- Fast Load times
-- Reactivity (Animations on scroll, etc)
-- Interactivity (User interactions with animations)
-- Client side routing
-- Dynamic rendering & Ease of use with it
-- Better support
-
-## What went well & what did not:
-
-- Fast Load times - Very good if you aim for this alone
-- Reactivity (Pre-rendered nature of Astro will annoy you)
-- Interactivity (Same reason as above and its pretty hard to implement - maybe skill issue or maybe not ;-; )
-- Client side routing - Mid tier file based routing
-- Dynamic rendering & Ease of use (Most annoying thing I faced)
-- Support is pretty good. Resources are there to refer but not as much compared to other frameworks.
+# Astro + Solid JS - Stopped
 
 ## What I ended up choosing:
 
